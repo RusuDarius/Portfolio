@@ -1,5 +1,5 @@
 import React from "react";
-import BadgeItem from "./BadgeItem";
+import BadgeItem from "./BadgeComponents/BadgeItem";
 
 const BADGES = [
   {
@@ -8,11 +8,11 @@ const BADGES = [
   },
   {
     title: "Lines of code written",
-    count: "20k+",
+    count: "50k+",
   },
   {
     title: "Coffees consumed",
-    count: "2k+",
+    count: "3k+",
   },
   {
     title: "Earned coding",
@@ -23,7 +23,7 @@ const BADGES = [
 
 const Badges = () => {
   return (
-    <div className="mt-28 transform translate-x-[53%] w-1/2 flex justify-between">
+    <div className="mt-28 flex justify-between">
       {BADGES.map((badge) => (
         <BadgeItem {...badge} key={badge.title} />
       ))}

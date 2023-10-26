@@ -1,4 +1,3 @@
-import React from "react";
 import pfp from "../utils/images/pfp.png";
 import DoughnutChart from "./SidebarComponents/DoughnutChart";
 import SkillsChart from "./SidebarComponents/SkillsChart";

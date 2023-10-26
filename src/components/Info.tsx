@@ -1,4 +1,3 @@
-import React from "react";
 import InfoItem from "./InfoComponents/InfoItem";
 
 const Info = () => {

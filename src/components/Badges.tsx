@@ -1,4 +1,3 @@
-import React from "react";
 import BadgeItem from "./BadgeComponents/BadgeItem";
 
 const BADGES = [

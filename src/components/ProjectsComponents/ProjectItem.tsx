@@ -24,7 +24,7 @@ const ProjectItem: FC<ProjectProps> = ({ title, description, codeLink }) => {
           See Code <IoIosArrowForward />
         </a>
         <a
-          className="flex items-center gap-1 text-[#FF4C29] h-9 p-3 rounded-md hover:-translate-y-1 duration-75"
+          className="flex items-center gap-1 bg-[#FF4C29] h-9 p-3 rounded-md hover:-translate-y-1 duration-75"
           href="#"
           target="_blank"
         >

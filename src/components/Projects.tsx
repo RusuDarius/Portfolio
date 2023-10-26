@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectItem from "./ProjectsComponents/ProjectItem";
 
 const PROJECT_CARDS = [
@@ -6,7 +5,7 @@ const PROJECT_CARDS = [
     title: "Packing List",
     description:
       "One of the first projects developed by me using React paired with JavaScript. The idea of the project is that of a packing list where you have multiple functionalities for a pleasant user experience.",
-    codeLink: "#",
+    codeLink: "https://github.com/RusuDarius/Packing-List",
   },
   {
     title: "Drum Kit",

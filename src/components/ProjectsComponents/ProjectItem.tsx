@@ -15,21 +15,25 @@ const ProjectItem: FC<ProjectProps> = ({ title, description, codeLink }) => {
         <p className="text-sm mt-5 text-[#9DB2BF]">{description}</p>
       </div>
 
-      <div className="mt-12 text-sm flex gap-10">
+      <div className="mt-11 text-sm flex gap-10">
         <a
-          className="flex items-center gap-1 bg-[#9DB2BF] h-9 p-3 rounded-md shadow-lg"
+          className="flex items-center gap-1 bg-[#9DB2BF] h-9 p-3 rounded-md shadow-lg hover:scale-105 duration-100"
           href={codeLink}
           target="_blank"
         >
-          See Code <IoIosArrowForward />
+          See Code
+          <IoIosArrowForward />
         </a>
-        <a
-          className="flex items-center gap-1 bg-[#FF4C29] h-9 p-3 rounded-md hover:-translate-y-1 duration-75"
-          href="#"
-          target="_blank"
-        >
-          See Project <IoIosArrowForward />
-        </a>
+        {title !== "Andarius Bogdizza" ? (
+          <a
+            className="flex items-center gap-1 bg-[#FF4C29] h-9 p-3 rounded-md hover:scale-105 duration-100 shadow-lg"
+            href="#"
+            target="_blank"
+          >
+            See Project
+            <IoIosArrowForward />
+          </a>
+        ) : null}
       </div>
     </div>
   );

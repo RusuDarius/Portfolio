@@ -38,7 +38,7 @@ const SideBar = () => {
       <hr className="w-[87%] my-5 transform translate-x-5 border-[#52616B]" />
 
       <div className="h-[17%] flex flex-col mb-5">
-        <SkillsChart title="html" progress={85} />
+        <SkillsChart title="HTML" progress={85} />
         <SkillsChart title="CSS" progress={70} />
         <SkillsChart title="JavaScript" progress={60} />
         <SkillsChart title="React" progress={40} />

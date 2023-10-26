@@ -32,7 +32,7 @@ const Heading = () => {
             </span>
           </p>
           <a
-            className="bg-slate-700 text-center text-sm text-white p-3 w-[20%] cursor-pointer hover:scale-110 hover:bg-[#89cff0] hover:text-black duration-100 hover: shadow-lg"
+            className="bg-slate-700 text-center text-sm text-white p-3 w-[20%] cursor-pointer hover:scale-110 hover:bg-[#89cff0] hover:text-black duration-100 hover: shadow-lg rounded-sm"
             href={CuriculumVitae}
             download="DariusRusu_CV"
           >

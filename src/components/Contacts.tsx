@@ -5,7 +5,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const Contacts = () => {
   return (
-    <div className="bg-[#252530] h-[60px] mt-[85px] flex items-center text-white text-2xl justify-evenly">
+    <div className="bg-[#252530] flex xl:h-[60px] xl:mt-[85px] items-center text-white text-2xl justify-evenly">
       <a
         href="https://github.com/RusuDarius"
         className="hover:text-black duration-100 hover:-translate-y-1"
